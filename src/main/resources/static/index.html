@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Bob Glober</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+        <h1>Livraria</h1>
+        <h1>Bob</h1>
+        <h1>Glober.</h1>
+    </div>
+
+    <div class="infos">
+        <div class="sobre">
+            <h1>Sobre nós:</h1>
+            <p>Somos todos seguidores e adoradores de Bob Glober e decidimos repassar todo esse amor para nossos livros.</p>
+            <p>Esperamos que tenha uma ótima experiencia e se junte ao culto, tenha um Bom Dia!</p>
+        </div>
+
+        <div class="funcoes">
+            <h1>Funcionalidades:</h1>
+            <nav>
+            <li><a href="#Cadastro">Cadastrar</a></li>
+            <li><a href="#Cadastro">Atualizar</a></li>
+            <li><a href="#Cadastro">Deletar</a></li>
+            <li><a href="#Pesquisa">Consultar</a></li>
+        </nav>
+        </div>
+    </div>
+        </header>
+    </header>
+
+
+    
+ <div class="grid" id="Cadastro">
+    <div class="square">
+        <div class="cadastro">
+        
+            <h1>Cadastro de Livros</h1>
+
+
+
+        <div class="inputs">
+            
+            <form id="cadastroForm">
+
+                <label for="descricao"><h2>Nome:</h2></label>
+                <input placeholder=" ----- " type="text" id="descricao" name="descricao" required>
+                <label for="isbn"><h2>Isbn:</h2></label>
+                <input placeholder=" ----- " type="text" id="isbn" name="isbn" required>
+            
+            
+
+        </div>
+
+        <div class="botoes">
+
+        <button type="submit" onclick="cadastrarLivro(event)" >Cadastrar</button>
+    </form>
+        <button onclick="atualizarLivro()">Atualizar</button>
+        <button onclick="excluirLivro()">Deletar</button>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="square-img">
+        <img src="img/livro.png" alt="livro">
+        <img src="img/pilhadelivros.png" alt="livros" width="220px">
+    </div>
+    <div class="square" id="Pesquisa">
+        <div class="cadastro">
+        
+            <h1>Pesquisa de Livros</h1>
+
+        
+
+        <div class="inputs">
+            <form id="pesquisaForm">
+
+            <h2>Id:</h2>
+            <input type="text" id="searchId" name="searchId" placeholder=" ----- ">
+            
+        </div>
+
+        <div class="botoes">
+
+        <button type="button" onclick="pesquisarLivro()">Pesquisar</button>
+    </form>
+
+
+        </div>
+        <div class="inputs">
+            
+            <h2>Nome:</h2>
+            <p id="nomere">---</p>
+            <h2>Isbn:</h2>
+            <p id="isbnre">---</p>
+
+        </div>
+    </div>
+    </div>
+    <div class="square-img">
+        <h1>Parcerias:</h1>
+        <img src="img/livrariaDeus.jfif" alt="livraria" width="200px">
+        <img src="img/maranhão.png" alt="maranhao" width="200px">
+
+
+    </div>
+
+ </div>
+    
+
+
+    <footer>
+<div id="footer-width">
+    <div>
+
+        <h1>Contato:</h1>
+        <p>Email: BobLover@Bobmail.com</p>
+        <p>Telefone: +55 15 99bob93984glober0</p>
+
+    </div>
+
+    <div>
+        <h1>Redes:</h1>
+        <p>Twitter: @BobLover_123</p>
+        <p>Youtube: Boblover13</p>
+        <p>Instagram: @BobLo0ver_2006</p>
+    </div>
+</div>
+    </footer>
+    
+</body>
+</html>
